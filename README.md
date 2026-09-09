@@ -10,6 +10,11 @@ A clean, responsive Todo app built with **React**, **Node.js/Express**, and **Po
 [![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express.js-Framework-000000?logo=express&logoColor=white)](https://expressjs.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?logo=vercel&logoColor=white)](https://todo-fullstack-alpha.vercel.app/)
+
+<p>
+  <a href="https://todo-fullstack-alpha.vercel.app/"><strong>🔗 Live Demo</strong></a>
+</p>
 
 <p>
   <a href="#-features">Features</a> •
@@ -31,6 +36,14 @@ A clean, responsive Todo app built with **React**, **Node.js/Express**, and **Po
 - 📊 Dashboard statistics
 - 🔍 Search functionality
 - 📱 Responsive design
+
+---
+
+## 🔗 Demo
+
+Try it live: **[todo-fullstack-alpha.vercel.app](https://todo-fullstack-alpha.vercel.app/)**
+
+*(add a screenshot or short GIF of the dashboard here)*
 
 ---
 
