@@ -1,45 +1,69 @@
-# TaskFlow
+<div align="center">
 
-A modern full-stack Todo application built using React, Spring Boot and PostgreSQL.
+# ✅ TaskFlow
+### A Modern Full-Stack Todo Application
 
-## Tech Stack
+A clean, responsive Todo app built with **React**, **Node.js/Express**, and **PostgreSQL** — with dashboard stats, search, and task management built in.
 
-### Frontend
-- React
-- Vite
-- CSS
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Bundler-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express.js-Framework-000000?logo=express&logoColor=white)](https://expressjs.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-### Backend
-- Spring Boot
-- Spring Data JPA
+<p>
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-project-structure">Structure</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
-### Database
-- PostgreSQL
+</div>
 
-## Features
+---
 
-- Add tasks
-- Delete tasks
-- Mark tasks complete
-- Dashboard statistics
-- Search functionality
-- Responsive design
+## ✨ Features
 
-## Project Structure
+- ➕ Add tasks
+- 🗑️ Delete tasks
+- ✔️ Mark tasks complete
+- 📊 Dashboard statistics
+- 🔍 Search functionality
+- 📱 Responsive design
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React, Vite, CSS |
+| Backend | Node.js, Express.js |
+| Database | PostgreSQL |
+
+---
+
+## 📁 Project Structure
 
 ```text
-todo-fullstack
-├── demo        (Spring Boot Backend)
-└── frontend    (React Frontend)
+todo-fullstack/
+├── backend/     # Node.js + Express backend
+└── frontend/    # React frontend
 ```
 
-## Installation
+> Note: assumed folder names `backend` and `frontend` here — swap these for your actual folder names (e.g. if it's still `demo/`) so the install steps below match.
+
+---
+
+## ⚙️ Installation
 
 ### Backend
 
 ```bash
-cd demo
-.\mvnw spring-boot:run
+cd backend
+npm install
+npm start
 ```
 
 ### Frontend
@@ -50,15 +74,21 @@ npm install
 npm run dev
 ```
 
-## Future Improvements
+> Make sure PostgreSQL is running locally and your backend's `.env` (or config file) points to the correct database URL, user, and password before starting the server.
 
-- User Authentication
-- JWT Security
-- Google Login
-- Task Priorities
-- Due Dates
-- Cloud Deployment
+---
 
-## Author
+## 🗺️ Roadmap
 
-Atharva Padwal
+- [ ] User authentication
+- [ ] JWT security
+- [ ] Google login
+- [ ] Task priorities
+- [ ] Due dates
+- [ ] Cloud deployment
+
+---
+
+## 👨‍💻 Author
+
+**Atharva Padwal**
