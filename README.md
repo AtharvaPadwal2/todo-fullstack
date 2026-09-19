@@ -1,99 +1,152 @@
 <div align="center">
 
-✅ TaskSync
+TaskSync
 
-Plan clearly. Prioritize better. Get things done.
+A focused workspace for planning, prioritizing, and completing everyday tasks.
 
-A modern full-stack task manager built with React, Node.js, Express, and PostgreSQL. TaskSync combines a focused dashboard with priorities, deadlines, smart filtering, progress insights, and guest access.
+TaskSync is a modern full-stack productivity application with user access, guest mode, priority-based task management, due dates, smart filters, and visual progress insights.
 
-
-
-
+<br />
 
 
 
 
-🚀 Open Live App
 
-Features • Tech Stack • Getting Started • Roadmap • Author
+
+
+<br />
+
+
+
+<br />
+
+Overview · Features · Tech Stack · Getting Started · Roadmap
 
 </div>
 
-📌 About
+Overview
 
-TaskSync is a clean and responsive productivity app designed to keep everyday task management simple. Users can create an account for a personalized workspace or continue instantly as a guest.
+TaskSync provides a calm, organized environment for managing daily work without unnecessary complexity. Users can create a personal account or enter immediately through guest mode, then organize tasks using priorities and deadlines.
 
-Each task can be assigned a priority and due date, while search and filters make larger task lists easier to manage. The dashboard also provides quick progress and priority insights.
+Built-in search, status filters, priority filters, and progress insights help users understand what needs attention and what has already been completed.
 
-✨ Features
 
-🔐 Create an account and log in
 
-👤 Continue without registration as a guest
 
-➕ Create and manage tasks
 
-✅ Track pending and completed tasks
+Purpose
 
-🔴 Assign High, Medium, or Low priority
+Simple and focused task management
 
-📅 Add due dates to tasks
+Access
 
-🔍 Search tasks instantly
+Registered account or guest mode
 
-🎯 Filter by completion status
+Core workflow
 
-🚦 Filter by priority level
+Create, prioritize, track, and complete tasks
 
-📊 View task counts and progress insights
+Experience
 
-🌓 Switch between light and dark themes
+Responsive interface with light and dark themes
 
-📱 Use comfortably across screen sizes
+<!-- Add a full-width dashboard screenshot here.
 
-🖥️ Live Demo
+![TaskSync Dashboard](./assets/tasksync-dashboard.png)
 
-Try TaskSync here:
+-->
 
-todo-fullstack-alpha.vercel.app
+Features
 
-Add a dashboard screenshot or short demo GIF here to make the repository more visually engaging.
+Task Management
 
-🧰 Tech Stack
+Create and manage personal tasks
+
+Mark tasks as pending or completed
+
+Assign High, Medium, or Low priority
+
+Add deadlines using due dates
+
+View live pending and completed counts
+
+Search and Organization
+
+Search tasks instantly by text
+
+Filter tasks by completion status
+
+Filter tasks by priority level
+
+Review priority distribution and progress insights
+
+Access and Experience
+
+Create a personal user account
+
+Log in to an existing workspace
+
+Continue instantly using guest mode
+
+Switch between light and dark themes
+
+Use the dashboard across desktop and mobile screens
+
+Tech Stack
 
 Layer
 
-Technologies
+Technology
+
+Responsibility
 
 Frontend
 
 React, Vite, CSS
 
+Interface and client-side experience
+
 Backend
 
 Node.js, Express.js
+
+REST API and server-side logic
 
 Database
 
 PostgreSQL
 
+Users and persistent task data
+
 Deployment
 
 Vercel
 
-📁 Project Structure
+Live frontend deployment
+
+Project Structure
 
 todo-fullstack/
-├── backend/          # Express API and database logic
-└── frontend/         # React + Vite user interface
+├── backend/              # Express API and database logic
+│   ├── controllers/
+│   ├── routes/
+│   └── server.js
+│
+└── frontend/             # React + Vite application
+    ├── src/
+    │   ├── components/
+    │   └── pages/
+    └── package.json
 
-If your repository uses different folder names, update this section and the commands below accordingly.
+Update this tree if your repository uses different directory names.
 
-🚀 Getting Started
+Getting Started
 
 Prerequisites
 
-Node.js and npm
+Make sure the following are installed:
+
+Node.js
 
 PostgreSQL
 
@@ -104,26 +157,32 @@ Git
 git clone <your-repository-url>
 cd todo-fullstack
 
-2. Set up the backend
+2. Configure the backend
 
 cd backend
 npm install
 
-Create the backend environment file required by your project and add your PostgreSQL connection details and authentication secrets. Then start the server:
+Create a .env file inside the backend directory and add the environment variables required by your implementation:
+
+DATABASE_URL=your_postgresql_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+Start the backend server:
 
 npm start
 
-3. Set up the frontend
+3. Configure the frontend
 
-Open another terminal:
+Open a second terminal:
 
 cd frontend
 npm install
 npm run dev
 
-Open the local URL displayed by Vite in your browser.
+Vite will display the local development URL in the terminal.
 
-🗺️ Roadmap
+Roadmap
 
 Task categories and custom tags
 
@@ -133,24 +192,38 @@ Reminder notifications
 
 Drag-and-drop task ordering
 
-Calendar view
+Calendar-based task view
 
 Progressive Web App support
 
-Shared task lists
+Shared lists and collaboration
 
-🤝 Contributing
+Contributing
 
-Suggestions and contributions are welcome. Fork the repository, create a feature branch, commit your changes, and open a pull request.
+Contributions and suggestions are welcome.
 
-👨‍💻 Author
+Fork the repository
+
+Create a feature branch: git checkout -b feature/your-feature
+
+Commit your changes: git commit -m "Add your feature"
+
+Push the branch: git push origin feature/your-feature
+
+Open a pull request
+
+Author
 
 Atharva Padwal
+IT Engineering Student · Full-Stack Developer
 
-GitHub • Live Project
+
+
 
 <div align="center">
 
-Built with focus, consistency, and a lot of learning. 🚀
+If you find TaskSync useful, consider giving the repository a star.
+
+Built with consistency, curiosity, and a focus on better everyday productivity.
 
 </div>
