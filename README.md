@@ -1,107 +1,156 @@
 <div align="center">
 
-# ✅ TaskFlow
-### A Modern Full-Stack Todo Application
+✅ TaskSync
 
-A clean, responsive Todo app built with **React**, **Node.js/Express**, and **PostgreSQL** — with dashboard stats, search, and task management built in.
+Plan clearly. Prioritize better. Get things done.
 
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-Bundler-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express.js-Framework-000000?logo=express&logoColor=white)](https://expressjs.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?logo=vercel&logoColor=white)](https://todo-fullstack-alpha.vercel.app/)
+A modern full-stack task manager built with React, Node.js, Express, and PostgreSQL. TaskSync combines a focused dashboard with priorities, deadlines, smart filtering, progress insights, and guest access.
 
-<p>
-  <a href="https://todo-fullstack-alpha.vercel.app/"><strong>🔗 Live Demo</strong></a>
-</p>
 
-<p>
-  <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-project-structure">Structure</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-roadmap">Roadmap</a>
-</p>
+
+
+
+
+
+
+🚀 Open Live App
+
+Features • Tech Stack • Getting Started • Roadmap • Author
 
 </div>
 
----
+📌 About
 
-## ✨ Features
+TaskSync is a clean and responsive productivity app designed to keep everyday task management simple. Users can create an account for a personalized workspace or continue instantly as a guest.
 
-- ➕ Add tasks
-- 🗑️ Delete tasks
-- ✔️ Mark tasks complete
-- 📊 Dashboard statistics
-- 🔍 Search functionality
-- 📱 Responsive design
+Each task can be assigned a priority and due date, while search and filters make larger task lists easier to manage. The dashboard also provides quick progress and priority insights.
 
----
+✨ Features
 
-## 🔗 Demo
+🔐 Create an account and log in
 
-Try it live: **[todo-fullstack-alpha.vercel.app](https://todo-fullstack-alpha.vercel.app/)**
+👤 Continue without registration as a guest
 
-*(add a screenshot or short GIF of the dashboard here)*
+➕ Create and manage tasks
 
----
+✅ Track pending and completed tasks
 
-## 🧰 Tech Stack
+🔴 Assign High, Medium, or Low priority
 
-| Layer | Technology |
-|---|---|
-| Frontend | React, Vite, CSS |
-| Backend | Node.js, Express.js |
-| Database | PostgreSQL |
+📅 Add due dates to tasks
 
----
+🔍 Search tasks instantly
 
-## 📁 Project Structure
+🎯 Filter by completion status
 
-```text
+🚦 Filter by priority level
+
+📊 View task counts and progress insights
+
+🌓 Switch between light and dark themes
+
+📱 Use comfortably across screen sizes
+
+🖥️ Live Demo
+
+Try TaskSync here:
+
+todo-fullstack-alpha.vercel.app
+
+Add a dashboard screenshot or short demo GIF here to make the repository more visually engaging.
+
+🧰 Tech Stack
+
+Layer
+
+Technologies
+
+Frontend
+
+React, Vite, CSS
+
+Backend
+
+Node.js, Express.js
+
+Database
+
+PostgreSQL
+
+Deployment
+
+Vercel
+
+📁 Project Structure
+
 todo-fullstack/
-├── backend/     # Node.js + Express backend
-└── frontend/    # React frontend
-```
+├── backend/          # Express API and database logic
+└── frontend/         # React + Vite user interface
 
-> Note: assumed folder names `backend` and `frontend` here — swap these for your actual folder names (e.g. if it's still `demo/`) so the install steps below match.
+If your repository uses different folder names, update this section and the commands below accordingly.
 
----
+🚀 Getting Started
 
-## ⚙️ Installation
+Prerequisites
 
-### Backend
+Node.js and npm
 
-```bash
+PostgreSQL
+
+Git
+
+1. Clone the repository
+
+git clone <your-repository-url>
+cd todo-fullstack
+
+2. Set up the backend
+
 cd backend
 npm install
+
+Create the backend environment file required by your project and add your PostgreSQL connection details and authentication secrets. Then start the server:
+
 npm start
-```
 
-### Frontend
+3. Set up the frontend
 
-```bash
+Open another terminal:
+
 cd frontend
 npm install
 npm run dev
-```
 
-> Make sure PostgreSQL is running locally and your backend's `.env` (or config file) points to the correct database URL, user, and password before starting the server.
+Open the local URL displayed by Vite in your browser.
 
----
+🗺️ Roadmap
 
-## 🗺️ Roadmap
+Task categories and custom tags
 
-- [ ] User authentication
-- [ ] JWT security
-- [ ] Google login
-- [ ] Task priorities
-- [ ] Due dates
-- [ ] Cloud deployment
+Recurring tasks
 
----
+Reminder notifications
 
-## 👨‍💻 Author
+Drag-and-drop task ordering
 
-**Atharva Padwal**
+Calendar view
+
+Progressive Web App support
+
+Shared task lists
+
+🤝 Contributing
+
+Suggestions and contributions are welcome. Fork the repository, create a feature branch, commit your changes, and open a pull request.
+
+👨‍💻 Author
+
+Atharva Padwal
+
+GitHub • Live Project
+
+<div align="center">
+
+Built with focus, consistency, and a lot of learning. 🚀
+
+</div>
